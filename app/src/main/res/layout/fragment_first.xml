@@ -86,17 +86,19 @@
                     android:id="@+id/button_guardar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:text="GUARDAR"
-                    android:layout_marginEnd="4dp" />
+                    android:onClick="Guardar"
+                    android:text="GUARDAR" />
 
                 <Button
                     android:id="@+id/button_actualizar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
                     android:layout_weight="1"
-                    android:text="ACTUALIZAR"
-                    android:layout_marginStart="4dp" />
+                    android:onClick="Actualizar'"
+                    android:text="ACTUALIZAR" />
             </LinearLayout>
 
             <LinearLayout
@@ -109,23 +111,26 @@
                     android:id="@+id/button_buscar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:text="BUSCAR"
-                    android:layout_marginEnd="4dp" />
+                    android:onClick="Buscar"
+                    android:text="BUSCAR" />
 
                 <Button
                     android:id="@+id/button_eliminar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
                     android:layout_weight="1"
-                    android:text="ELIMINAR"
-                    android:layout_marginStart="4dp" />
+                    android:onClick="Eliminar"
+                    android:text="ELIMINAR" />
             </LinearLayout>
 
             <Button
                 android:id="@+id/button_listar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="Listar"
                 android:text="LISTAR" />
 
         </LinearLayout>
