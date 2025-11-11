@@ -97,7 +97,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
+<<<<<<< Updated upstream
                     android:onClick="Actualizar'"
+=======
+                    android:onClick="Actualizar"
+>>>>>>> Stashed changes
                     android:text="ACTUALIZAR" />
             </LinearLayout>
 
